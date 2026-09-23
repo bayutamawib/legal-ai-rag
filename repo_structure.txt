@@ -1,0 +1,30 @@
+legal-ai-rag/
+├── data/
+│   ├── raw/                        # PDF/TXT mentah (e.g., UU_1_2024.pdf, UU_11_2008.pdf)
+│   ├── processed/                  # Hasil cleaning & JSON structured chunks
+│   └── quarantine/                 # Data cacat/gagal parse (menunjukkan QA Mindset)
+├── notebooks/                      # Create yourself if necessary
+│   ├── 01_data_ingestion_eda.ipynb # Profiling data, parsing, & cleaning
+│   ├── 02_rag_pipeline_test.ipynb  # Experimentation: Hybrid Search + Reranking
+│   └── 03_ragas_evaluation.ipynb   # Evaluasi model (Faithfulness, Precision)
+├── src/
+│   ├── __init__.py
+│   ├── batch_test.py
+│   ├── evaluate_batch.py
+│   ├── parser.py                   # Custom parser untuk mengekstrak Bab & Pasal
+│   ├── ingest.py                   # Ingestion pipeline: Text cleaning & Metadata tagging
+│   ├── retriever.py                # Vector DB + Hybrid Search (BM25 + Dense) + Reranker
+│   ├── pipeline.py                 # Core RAG logic menggunakan LlamaIndex & Groq Llama 3
+│   └── evaluator.py                # Evaluation suite pakai Ragas
+├── tests/
+│   ├── test_parser.py              # Unit test ekstraksi tanggal & pasal
+│   └── test_schema.py              # Validation test untuk metadata ID
+├── .env.example                    # Template GROQ_API_KEY
+├── .gitignore
+├── main.py                         # Streamlit UI Dashboard
+├── app_ui.py
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+├── LICENSE
+└── README.md                       # Laporan proyek & metrik evaluasi

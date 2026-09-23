@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: legal_qdrant
+    ports:
+      - "6333:6333" # HTTP API & Web UI
+      - "6334:6334" # gRPC API
+    volumes:
+      - ./data/qdrant_db:/qdrant/storage:z
+    restart: always
+
+  redis:
+    image: redis:alpine
+    container_name: legal_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./data/redis_db:/data:z
+    command: redis-server --save 60 1 --loglevel notice
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: legal_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - REDIS_HOST=redis
+      - QDRANT_HOST=qdrant
+    depends_on:
+      - qdrant
+      - redis
+    volumes:
+      - ./data/processed:/app/data/processed
+      - ~/.cache/huggingface:/root/.cache/huggingface # Cache model transformer
+    restart: always

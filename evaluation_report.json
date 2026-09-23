@@ -1,0 +1,72 @@
+[
+  {
+    "user_input":"Siapa yang wajib melakukan penapisan konten dalam Sistem Elektronik?",
+    "retrieved_contexts":[
+      "BAB II Pasal 34: Pasal 34\n(1) Penyelenggara Sistem Elektronik wajib melakukan Uji\nKelaikan Sistem Elektronik.\n(21 Kew...",
+      "BAB II Pasal 30: Pasal 30\n(1) Penyelenggara Sistem Elektronik wajib menyediakan litur\nsesuai dengan karakteristik Sis...",
+      "BAB II Pasal 32: Pasal 32\n(1) Setiap orang yang bekerja di\nlingkungan\npenyelenggaraan Sistem Elektronik wajib mengama..."
+    ],
+    "response":"Berdasarkan dokumen hukum yang tersedia, informasi mengenai siapa yang wajib melakukan penapisan konten dalam Sistem Elektronik tidak ditemukan.",
+    "reference":"Setiap Penyelenggara Sistem Elektronik (PSE) wajib melakukan pemutusan akses terhadap Informasi Elektronik yang memiliki muatan dilarang.",
+    "faithfulness":0.5,
+    "answer_relevancy":null,
+    "context_precision":null,
+    "context_recall":0.0
+  },
+  {
+    "user_input":"Apa sanksi bagi Penyelenggara Sistem Elektronik yang tidak melakukan pendaftaran?",
+    "retrieved_contexts":[
+      "BAB II Pasal 6: Pasal 6\n(1)\nSetiap Penyelenggara Sistem Elektronik sebagaimana\ndimaksud dalam Pasal 2 ayat (2) wajib...",
+      "BAB II Pasal 5: Pasal 5\n(1) Penyelenggara Sistem Elektronik wajib memastikan\nSistem Elektroniknya tidak memuat Infor...",
+      "BAB VIII Pasal 98: Pasal 98\n(1) Penyelenggara Sistem Elektronik wajib melakukan\npemutusan Akses terhadap Informasi Elek..."
+    ],
+    "response":"Berdasarkan dokumen hukum yang tersedia, informasi mengenai sanksi bagi Penyelenggara Sistem Elektronik yang tidak melakukan pendaftaran tidak ditemukan.",
+    "reference":"Berdasarkan dokumen hukum yang tersedia, informasi mengenai sanksi bagi Penyelenggara Sistem Elektronik yang tidak melakukan pendaftaran tidak ditemukan.",
+    "faithfulness":0.5,
+    "answer_relevancy":null,
+    "context_precision":0.9999999999,
+    "context_recall":null
+  },
+  {
+    "user_input":"Bagaimana kewajiban PSE jika terjadi kegagalan perlindungan data pribadi?",
+    "retrieved_contexts":[
+      "BAB II Pasal 14: Pasal 14\n(1) Penyelenggara Sistem Elektronik wajib melaksanakan\nprinsip pelindungan Data Pribadi dal...",
+      "TANPA BAB Pasal 26: Pasal 26\nAyat (l)\nDalam pemanfaatan Teknologi Informasi, perlindungan\ndata pribadi merupakan salah s...",
+      "BAB XIII Pasal 24: Pasal 24 . . .\nPRESIDEN\nREPUBLIK INDONESIA\n- 9 -\nP asal 24\nCukup jelas.\nP asal 25\nInformasi Elektron..."
+    ],
+    "response":"**Kewajiban Penyelenggara Sistem Elektronik (PSE) bila terjadi kegagalan perlindungan data pribadi**\n\n| No | Kewajiban | Rujukan Hukum |\n|----|-----------|---------------|\n| 1 | PSE wajib memberitahukan secara tertulis kepada pemilik data pribadi mengenai kegagalan tersebut. | PP Nomor\u202f71 Tahun\u202f2019, Pasal\u202f14, ayat (5) |\n\n> **Pasal\u202f14, ayat (5) PP\u202f71\/2019**: \u201cJika terjadi kegagalan dalam pelindungan terhadap Data Pribadi yang dikelolanya, Penyelenggara Sistem Elektronik wajib memberitahukan secara tertulis kepada pemilik Data Pribadi tersebut.\u201d\n\nTidak ada kewajiban lain yang tercantum dalam dokumen hukum yang disediakan mengenai kegagalan perlindungan data pribadi.  \nBerdasarkan dokumen hukum yang tersedia, informasi mengenai hal tersebut tidak ditemukan.",
+    "reference":"**Kewajiban Penyelenggara Sistem Elektronik (PSE) bila terjadi kegagalan perlindungan data pribadi**\n\n| No | Kewajiban | Rujukan Hukum |\n|----|-----------|---------------|\n| 1 | PSE wajib memberitahukan secara tertulis kepada pemilik data pribadi mengenai kegagalan tersebut. | PP Nomor\u202f71 Tahun\u202f2019, Pasal\u202f14, ayat (5) |\n\n> **Pasal\u202f14, ayat (5) PP\u202f71\/2019**: \u201cJika terjadi kegagalan dalam pelindungan terhadap Data Pribadi yang dikelolanya, Penyelenggara Sistem Elektronik wajib memberitahukan secara tertulis kepada pemilik Data Pribadi tersebut.\u201d\n\nTidak ada kewajiban lain yang tercantum dalam dokumen hukum yang disediakan mengenai kegagalan perlindungan data pribadi.  \nBerdasarkan dokumen hukum yang tersedia, informasi mengenai hal tersebut tidak ditemukan.",
+    "faithfulness":0.0,
+    "answer_relevancy":0.885596763,
+    "context_precision":null,
+    "context_recall":0.0
+  },
+  {
+    "user_input":"Apakah informasi elektronik dapat dijadikan alat bukti yang sah di pengadilan?",
+    "retrieved_contexts":[
+      "BAB X Pasal 44: Pasal 44\nAlat bukti penyidikan, penuntutan dan pemeriksaan di sidang\npengadilan menurut ketentuan Un...",
+      "BAB III Pasal 5: Pasal 5\n(1) Informasi Elektronik dan\/atau Dokumen Elektronik\ndan\/atau hasil cetaknya merupakan alat ...",
+      "TANPA BAB Pasal 5: Pasal 5\nAyat (1)\nBahwa keberadaan Informasi Elektronik dan\/ atau\nDokumen Elektronik mengikat dan dia..."
+    ],
+    "response":"**Jawaban**  \nYa, informasi elektronik dapat dijadikan alat bukti yang sah di pengadilan.\n\n**Rujukan Hukum**  \n1. **UU Nomor\u202f11 Tahun\u202f2008**  \n   - *Pasal\u202f5 (1)*: \u201cInformasi Elektronik dan\/atau Dokumen Elektronik dan\/atau hasil cetaknya merupakan alat bukti hukum yang sah.\u201d  \n   - *Pasal\u202f44*: Menyebutkan bahwa \u201calat bukti lain berupa Informasi Elektronik dan\/atau Dokumen Elektronik\u201d termasuk dalam alat bukti yang dapat dipakai di sidang pengadilan.  \n\n2. **UU Nomor\u202f19 Tahun\u202f2016**  \n   - *Pasal\u202f5 (1)*: \u201cKeberadaan Informasi Elektronik dan\/atau Dokumen Elektronik mengikat dan diakui sebagai alat bukti yang sah untuk memberikan kepastian hukum.\u201d  \n\nDengan ketentuan di atas, informasi elektronik secara eksplisit diakui sebagai alat bukti yang sah dan dapat dipertimbangkan dalam proses peradilan.",
+    "reference":"**Jawaban**  \nYa, informasi elektronik dapat dijadikan alat bukti yang sah di pengadilan.\n\n**Rujukan Hukum**  \n1. **UU Nomor\u202f11 Tahun\u202f2008**  \n   - *Pasal\u202f5 (1)*: \u201cInformasi Elektronik dan\/atau Dokumen Elektronik dan\/atau hasil cetaknya merupakan alat bukti hukum yang sah.\u201d  \n   - *Pasal\u202f44*: Menyebutkan bahwa \u201calat bukti lain berupa Informasi Elektronik dan\/atau Dokumen Elektronik\u201d termasuk dalam alat bukti yang dapat dipakai di sidang pengadilan.  \n\n2. **UU Nomor\u202f19 Tahun\u202f2016**  \n   - *Pasal\u202f5 (1)*: \u201cKeberadaan Informasi Elektronik dan\/atau Dokumen Elektronik mengikat dan diakui sebagai alat bukti yang sah untuk memberikan kepastian hukum.\u201d  \n\nDengan ketentuan di atas, informasi elektronik secara eksplisit diakui sebagai alat bukti yang sah dan dapat dipertimbangkan dalam proses peradilan.",
+    "faithfulness":null,
+    "answer_relevancy":1.0,
+    "context_precision":null,
+    "context_recall":null
+  },
+  {
+    "user_input":"Siapa yang berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang?",
+    "retrieved_contexts":[
+      "BAB VIII Pasal 95: Pasal 95\nPeran Pemerintah untuk melakukan pencegahan\npenyebarluasan dan penggunaan Informasi Elektro...",
+      "BAB VIII Pasal 98: Pasal 98\n(1) Penyelenggara Sistem Elektronik wajib melakukan\npemutusan Akses terhadap Informasi Elek...",
+      "TANPA BAB Pasal 40: Pasal 40\n(1)\nPemerintah memfasilitasi pemanfaatan Teknologi\nInformasi dan Transaksi Elektronik sesua..."
+    ],
+    "response":"**Siapa yang berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang?**  \n\n1. **Pemerintah Republik Indonesia**  \n   - Menurut **Pasal\u202f95** PP\u202fNo\u202f71\/2019, Pemerintah memiliki peran untuk melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik yang dilarang, termasuk *pemutusan akses* atau *memerintahkan* Penyelenggara Sistem Elektronik (PSE) untuk melakukan pemutusan akses.  \n   - Pasal\u202f2b UU\u202fNo\u202f19\/2016 juga menyatakan bahwa Pemerintah berwenang melakukan pemutusan akses dan\/atau memerintahkan PSE untuk melakukan pemutusan akses terhadap Informasi Elektronik yang melanggar hukum.\n\n2. **Penyelenggara Sistem Elektronik (PSE)**  \n   - Berdasarkan **Pasal\u202f98** PP\u202fNo\u202f71\/2019, PSE wajib melakukan pemutusan akses terhadap Informasi Elektronik dan\/atau Dokumen Elektronik yang telah diinstruksikan oleh Pemerintah.  \n   - PSE mencakup penyedia jasa akses internet, jaringan dan jasa telekomunikasi, penyedia konten, serta penyedia tautan yang menyediakan jaringan lintas Informasi Elektronik.\n\n**Kesimpulan**  \nPemerintah berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang, dan Penyelenggara Sistem Elektronik wajib melaksanakan pemutusan akses sesuai perintah Pemerintah.",
+    "reference":"**Siapa yang berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang?**  \n\n1. **Pemerintah Republik Indonesia**  \n   - Menurut **Pasal\u202f95** PP\u202fNo\u202f71\/2019, Pemerintah memiliki peran untuk melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik yang dilarang, termasuk *pemutusan akses* atau *memerintahkan* Penyelenggara Sistem Elektronik (PSE) untuk melakukan pemutusan akses.  \n   - Pasal\u202f2b UU\u202fNo\u202f19\/2016 juga menyatakan bahwa Pemerintah berwenang melakukan pemutusan akses dan\/atau memerintahkan PSE untuk melakukan pemutusan akses terhadap Informasi Elektronik yang melanggar hukum.\n\n2. **Penyelenggara Sistem Elektronik (PSE)**  \n   - Berdasarkan **Pasal\u202f98** PP\u202fNo\u202f71\/2019, PSE wajib melakukan pemutusan akses terhadap Informasi Elektronik dan\/atau Dokumen Elektronik yang telah diinstruksikan oleh Pemerintah.  \n   - PSE mencakup penyedia jasa akses internet, jaringan dan jasa telekomunikasi, penyedia konten, serta penyedia tautan yang menyediakan jaringan lintas Informasi Elektronik.\n\n**Kesimpulan**  \nPemerintah berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang, dan Penyelenggara Sistem Elektronik wajib melaksanakan pemutusan akses sesuai perintah Pemerintah.",
+    "faithfulness":0.125,
+    "answer_relevancy":null,
+    "context_precision":null,
+    "context_recall":0.6
+  }
+]

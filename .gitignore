@@ -1,0 +1,25 @@
+# Environment & Secrets
+.env
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data & Database Storage (Jangan di-commit ke Git)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/quarantine/*
+!data/quarantine/.gitkeep
+data/qdrant_db/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
