@@ -1,0 +1,132 @@
+[
+    {
+        "case_id": "Q001",
+        "query": "Siapa yang wajib melakukan penapisan konten dalam Sistem Elektronik?",
+        "expected_answer": "Setiap Penyelenggara Sistem Elektronik wajib melakukan pemutusan akses terhadap Informasi Elektronik yang memiliki muatan dilarang.",
+        "expected_references": [
+            {
+                "document_id": "PP_71_2019",
+                "articles": [
+                    "Pasal 98",
+                    "Pasal 30",
+                    "Pasal 32",
+                    "Pasal 34"
+                ]
+            },
+            {
+                "document_id": "Permenkominfo Nomor 5 Tahun 2020",
+                "articles": [
+                    "Pasal 9",
+                    "Pasal 10",
+                    "Pasal 13",
+                    "Pasal 14",
+                    "Pasal 15"
+                ]
+            }
+        ],
+        "query_type": "direct_lookup",
+        "severity": "high"
+    },
+    {
+        "case_id": "Q002",
+        "query": "Apa sanksi bagi Penyelenggara Sistem Elektronik yang tidak melakukan pendaftaran?",
+        "expected_answer": "Sanksi bagi Penyelenggara Sistem Elektronik (PSE) yang tidak melakukan pendaftaran adalah penerapan sanksi administratif secara bertahap hingga pemutusan akses (pemblokiran) pada sistem elektronik tersebut.",
+        "expected_references": [
+            {
+                "document_id": "Permenkominfo Nomor 5 Tahun 2020",
+                "articles": [
+                    "Pasal 2 ayat (1)",
+                    "Pasal 7"
+                ]
+            },
+            {
+                "document_id": "UU Nomor 1 Tahun 2024",
+                "articles": [
+                    "Pasal 40 ayat (2a) dan (2b)"
+                ]
+            },
+            {
+                "document_id": "PP Nomor 71 Tahun 2019",
+                "articles": [
+                    "Pasal 5",
+                    "Pasal 6 ayat (1)",
+                    "Pasal 98",
+                    "Pasal 100 ayat (1) dan (2)"
+                ]
+            }
+        ],
+        "query_type": "penalty_lookup",
+        "severity": "high"
+    },
+    {
+        "case_id": "Q003",
+        "query": "Bagaimana kewajiban PSE jika terjadi kegagalan perlindungan data pribadi?",
+        "expected_answer": "Penyelenggara Sistem Elektronik wajib memberitahukan secara tertulis kepada pemilik Data Pribadi apabila terjadi kegagalan dalam perlindungan Data Pribadi.",
+        "expected_references": [
+            {
+                "document_id": "PP_71_2019",
+                "articles": [
+                    "Pasal 14"
+                ]
+            },
+            {
+                "document_id": "UU Nomor 27 Tahun 2022",
+                "articles": [
+                    "Pasal 46 ayat (1)",
+                    "Pasal 46 ayat (2)",
+                    "Pasal 46 ayat (3)",
+                    "Pasal 47",
+                    "Pasal 57"
+                ]
+            }
+        ],
+        "query_type": "obligation_lookup",
+        "severity": "high"
+    },
+    {
+        "case_id": "Q004",
+        "query": "Apakah informasi elektronik dapat dijadikan alat bukti yang sah di pengadilan?",
+        "expected_answer": "Ya. Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya merupakan alat bukti hukum yang sah.",
+        "expected_references": [
+            {
+                "document_id": "UU_11_2008",
+                "articles": [
+                    "Pasal 5",
+                    "Pasal 44"
+                ]
+            },
+            {
+                "document_id": "UU Nomor 20 Tahun 2025",
+                "articles": [
+                    "Pasal 235 ayat (1)"
+                ]
+            }
+        ],
+        "query_type": "legal_validity",
+        "severity": "medium"
+    },
+    {
+        "case_id": "Q005",
+        "query": "Siapa yang berwenang melakukan pemblokiran atau pemutusan akses situs web dilarang?",
+        "expected_answer": "Pemerintah berwenang melakukan pemutusan akses atau memerintahkan Penyelenggara Sistem Elektronik untuk melakukan pemutusan akses terhadap informasi elektronik yang melanggar hukum.",
+        "expected_references": [
+            {
+                "document_id": "PP_71_2019",
+                "articles": [
+                    "Pasal 95",
+                    "Pasal 96",
+                    "Pasal 97",
+                    "Pasal 98"
+                ]
+            },
+            {
+                "document_id": "UU Nomor 1 Tahun 2024",
+                "articles": [
+                    "Pasal 40 ayat (2a) dan (2b)"
+                ]
+            }
+        ],
+        "query_type": "authority_lookup",
+        "severity": "high"
+    }
+]

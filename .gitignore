@@ -1,5 +1,8 @@
 # Environment & Secrets
 .env
+.env.*
+!.env.example
+.sheets.env
 .venv/
 venv/
 env/
@@ -9,6 +12,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.pytest_cache/
+.DS_Store
 
 # Data & Database Storage (Jangan di-commit ke Git)
 data/raw/*

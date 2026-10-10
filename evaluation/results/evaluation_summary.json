@@ -1,0 +1,16 @@
+{
+  "total_cases": 5,
+  "retrieval_empty_cases": 0,
+  "retrieval_miss_cases": 0,
+  "partial_retrieval_cases": 4,
+  "strong_retrieval_cases": 1,
+  "answer_quality_failure_cases": 5,
+  "passed_cases": 0,
+  "average_reference_recall": 0.3705,
+  "average_reference_precision": 0.6667,
+  "average_latency_seconds": 1.9312,
+  "average_faithfulness": 1.0,
+  "average_answer_relevancy": 0.4716,
+  "average_context_precision": 0.7083,
+  "average_context_recall": 0.375
+}

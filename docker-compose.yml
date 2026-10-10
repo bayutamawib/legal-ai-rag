@@ -8,7 +8,7 @@ services:
       - "6333:6333" # HTTP API & Web UI
       - "6334:6334" # gRPC API
     volumes:
-      - ./data/qdrant_db:/qdrant/storage:z
+      - qdrant_storage:/qdrant/storage
     restart: always
 
   redis:
@@ -40,3 +40,8 @@ services:
       - ./data/processed:/app/data/processed
       - ~/.cache/huggingface:/root/.cache/huggingface # Cache model transformer
     restart: always
+
+volumes:
+  qdrant_storage:
+    name: legal_qdrant_storage
+    external: true
