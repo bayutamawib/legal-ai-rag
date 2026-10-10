@@ -151,7 +151,6 @@ legal-ai-rag/
 ├── main.py                           # Application entry point
 ├── metadata_schema_example.json      # Example metadata schema
 ├── README.md
-├── repo_structure.txt                # Repository structure notes
 └── requirements.txt
 ```
 
